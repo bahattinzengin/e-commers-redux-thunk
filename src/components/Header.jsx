@@ -1,8 +1,11 @@
+import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 
 
 
 const Header = () => {
+    const state =useSelector((store)=>store.basketReducer);
+    const total_count= state.basket.reduce((total,item)=>total+item.adet,0)
     
 
     return (
@@ -18,7 +21,9 @@ const Header = () => {
                     <NavLink to={'/sepet'} >
 
                         <span>Sepet</span>
-                        <span className="ms-2 badge bg-danger">5</span>
+                        <span className="ms-2 badge bg-danger">
+                          {total_count}
+                            </span>
 
                     </NavLink>
                 </nav>

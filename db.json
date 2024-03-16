@@ -183,20 +183,31 @@
   ],
   "basket": [
     {
-      "id": 4,
-      "baslik": "Akıllı Saat",
-      "marka": "GHI",
-      "model": "D4",
-      "fiyat": 500,
-      "stokAdedi": 20,
-      "renk": "Metal Gri",
-      "ozellikler": [
-        "GPS takibi",
-        "Kalp atış hızı sensörü",
-        "Su geçirmez"
-      ],
-      "resim": "https://picsum.photos/204",
-      "adet": 35
+      "id": 1,
+      "marka": "XYZ",
+      "model": "A1",
+      "fiyat": 1500,
+      "stokAdedi": 50,
+      "resim": "https://picsum.photos/201",
+      "adet": 8
+    },
+    {
+      "id": 2,
+      "marka": "ABC",
+      "model": "B2",
+      "fiyat": 3000,
+      "stokAdedi": 30,
+      "resim": "https://picsum.photos/202",
+      "adet": 8
+    },
+    {
+      "id": 3,
+      "marka": "DEF",
+      "model": "C3",
+      "fiyat": 150,
+      "stokAdedi": 100,
+      "resim": "https://picsum.photos/203",
+      "adet": 8
     }
   ]
 }

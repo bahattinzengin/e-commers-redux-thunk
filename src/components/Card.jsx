@@ -45,13 +45,13 @@ const Card = ({ product }) => {
                     onClick={handleClick}
                     className="w-100 d-flex justify-content-between">
                     <span>
-                        {found ? `Miktarı Artır` : 'Sepete Ekle'}
+                        {found ? `Miktarı Artır(${found.adet}) ` : 'Sepete Ekle'}
                     </span>
 
 
-                    <span className="text-success">{product.fiyat}₺
-
-
+                    <span
+                        className="text-success">
+                        {product.fiyat}₺
                     </span>
 
 
